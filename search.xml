@@ -4,28 +4,22 @@
   
     
     <entry>
-      <title>使用HEXO搭建自己的博客</title>
-      <link href="/2020/04/03/useHEXO/"/>
-      <url>/2020/04/03/useHEXO/</url>
+      <title>useHexo</title>
+      <link href="/2020/04/07/useHexo/"/>
+      <url>/2020/04/07/useHexo/</url>
       
         <content type="html"><![CDATA[<p>@<a href="目录">TOC</a></p><p>列表[^2]</p><ul><li>项目<ul><li>项目<ul><li>项目</li></ul></li></ul></li></ul><ol><li>项目1</li><li>项目2</li><li>项目3</li></ol><hr><h2 id="熟悉Github环境"><a href="#熟悉Github环境" class="headerlink" title="熟悉Github环境"></a>熟悉Github环境</h2><ul><li><input disabled="" type="checkbox"> 计划任务</li><li><input checked="" disabled="" type="checkbox"> 完成任务</li></ul><hr><h2 id="使用Hexo框架搭建博客"><a href="#使用Hexo框架搭建博客" class="headerlink" title="使用Hexo框架搭建博客"></a>使用Hexo框架搭建博客</h2><ul><li><input disabled="" type="checkbox"> 计划任务</li><li><input checked="" disabled="" type="checkbox"> 完成任务</li></ul><hr><h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p>一个简单的表格是这么创建的：<br>项目     | Value<br>———|—–<br>电脑  | $1600<br>手机  | $12<br>导管  | $1</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">int boy=<span class="number">1</span>,girl=<span class="number">0</span>;<span class="comment">//男孩是1，女孩是0</span></span><br><span class="line"><span class="keyword">while</span>(boy.Fall_In_Love(girl)))&#123;<span class="comment">//1爱上了0</span></span><br><span class="line">    boy.getBug(forever);<span class="comment">//从此男孩的的人生充满了这个女孩的Bug</span></span><br><span class="line">boy.Life(boy.concat(girl));<span class="comment">//但是男孩希望和女生连接成10这个代表完美的整数</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><hr><p>*[SAU]: 沈阳航空航天大学</p>]]></content>
       
       
-      
-        <tags>
-            
-            <tag> 个人Blog </tag>
-            
-        </tags>
       
     </entry>
     
     
     
     <entry>
-      <title>About Me</title>
-      <link href="/2020/04/03/aboutMe/"/>
-      <url>/2020/04/03/aboutMe/</url>
+      <title>aboutMe</title>
+      <link href="/2020/03/18/aboutMe/"/>
+      <url>/2020/03/18/aboutMe/</url>
       
         <content type="html"><![CDATA[<h3 id="我的个人信息"><a href="#我的个人信息" class="headerlink" title="我的个人信息"></a>我的个人信息</h3><p>姓名: 王屿涵<br>现居: 辽宁沈阳</p><h3 id="我的账户信息"><a href="#我的账户信息" class="headerlink" title="我的账户信息"></a>我的账户信息</h3><p>QQ: 1537992316<br>手机(微信同): 13080843840<br>邮箱: <a href="mailto:1537992316@qq.com">1537992316@qq.com</a><br><a href="https://github.com/Alpha-GOGO" target="_blank" rel="noopener">Github</a>: Wang-YH<br><a href="https://blog.csdn.net/qq_37756991" target="_blank" rel="noopener">CSDN</a>: 新人Tony小白<br><a href="https://weibo.com/u/5773013283" target="_blank" rel="noopener">微博</a>: Leigosi_雷<br><a href="https://www.zhihu.com/people/mariowilde" target="_blank" rel="noopener">知乎</a>: MarioWilde<br><a href="">简书</a>: (暂无)</p><h3 id="技能掌握情况"><a href="#技能掌握情况" class="headerlink" title="技能掌握情况"></a>技能掌握情况</h3><p>C、C++、Java、C#、Python、HTML、CSS、JS<br>算法、数据结构、操作系统、网络原理、数据库</p>]]></content>
       
@@ -33,26 +27,7 @@
       
         <tags>
             
-            <tag> Logs </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>我第一篇博客文章</title>
-      <link href="/2020/03/14/myFirstBlog/"/>
-      <url>/2020/03/14/myFirstBlog/</url>
-      
-        <content type="html"><![CDATA[<blockquote><p>还记得两年前在SAU读大三的时候，我们老师在<strong>软件工程</strong>课上让我们在<a href="https://www.cnblogs.com/" target="_blank" rel="noopener">博客园</a>上写Blog，教我们使用<code>Markdown</code>语法。通过写博客，我可以对自己的学习经历分享在网络上，同时也能够激励自己不断努力。</p></blockquote><blockquote><p>不久，在师兄的介绍下，我接触了<a href="https://github.com/" target="_blank" rel="noopener">Github</a>这个平台，它是一个<em>代码托管仓库</em>，可以把自己平时的项目保存在云端，十分便利。还有很多大佬的项目可以借鉴。<br>同时，Github也支持搭建个人博客，作为一个可自定义，能够记录自己进步，<del>摸鱼</del>生活的私人平台。</p></blockquote>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 日志 </tag>
+            <tag> 随笔 </tag>
             
         </tags>
       
@@ -68,6 +43,25 @@
         <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
       
       
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>myFirstBlog</title>
+      <link href="/2020/03/14/myFirstBlog/"/>
+      <url>/2020/03/14/myFirstBlog/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>还记得两年前在SAU读大三的时候，我们老师在<strong>软件工程</strong>课上让我们在<a href="https://www.cnblogs.com/" target="_blank" rel="noopener">博客园</a>上写Blog，教我们使用<code>Markdown</code>语法。通过写博客，我可以对自己的学习经历分享在网络上，同时也能够激励自己不断努力。</p></blockquote><blockquote><p>不久，在师兄的介绍下，我接触了<a href="https://github.com/" target="_blank" rel="noopener">Github</a>这个平台，它是一个<em>代码托管仓库</em>，可以把自己平时的项目保存在云端，十分便利。还有很多大佬的项目可以借鉴。<br>同时，Github也支持搭建个人博客，作为一个可自定义，能够记录自己进步，<del>摸鱼</del>生活的私人平台。</p></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 日志 </tag>
+            
+        </tags>
       
     </entry>
     
