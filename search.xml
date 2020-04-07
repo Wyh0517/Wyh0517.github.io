@@ -4,7 +4,7 @@
   
     
     <entry>
-      <title>useHexo</title>
+      <title>Hexo博客的搭建</title>
       <link href="/2020/04/07/useHexo/"/>
       <url>/2020/04/07/useHexo/</url>
       
@@ -12,12 +12,18 @@
       
       
       
+        <tags>
+            
+            <tag> 个人博客 </tag>
+            
+        </tags>
+      
     </entry>
     
     
     
     <entry>
-      <title>aboutMe</title>
+      <title>About Me</title>
       <link href="/2020/03/18/aboutMe/"/>
       <url>/2020/03/18/aboutMe/</url>
       
@@ -49,7 +55,7 @@
     
     
     <entry>
-      <title>myFirstBlog</title>
+      <title>我的第一个Blog</title>
       <link href="/2020/03/14/myFirstBlog/"/>
       <url>/2020/03/14/myFirstBlog/</url>
       
