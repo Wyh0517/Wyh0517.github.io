@@ -10,15 +10,15 @@
   <meta name="generator" content="hexo-theme-yilia-plus">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.  欢迎来到">
+  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="编辑Hexo博客的基本命令">
 <meta property="og:url" content="http://yoursite.com/2020/03/14/hello-world/index.html">
 <meta property="og:site_name" content="Wang-YH">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.  欢迎来到">
+<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-03-14T06:51:35.000Z">
-<meta property="article:modified_time" content="2020-04-14T03:56:19.186Z">
+<meta property="article:modified_time" content="2020-04-14T09:25:20.870Z">
 <meta property="article:author" content="Wang-YH">
 <meta property="article:tag" content="Hexo框架">
 <meta name="twitter:card" content="summary">
@@ -281,6 +281,7 @@
   <div class="article-entry" itemprop="articleBody">
     
     <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<a id="more"></a>
 <blockquote>
 <p>欢迎来到<strong>Hexo</strong>！这是您的第一篇文章。查看<strong>文档</strong>以获取更多信息。如果在使用Hexo时遇到任何问题，可以在<strong>故障排除</strong>中找到答案，或者可以在<strong>GitHub</strong>上向我询问。</p>
 </blockquote>
@@ -487,30 +488,31 @@
 
 
 
-
+  <div id="giteement-ctn"></div>
   
-  <div id="gitment-ctn"></div>
-  
-    <!-- 中文 -->
-    <link rel="stylesheet" href="/lib/gitment.css">
-    <script src="/lib/gitment.js"></script>
+    <link rel="stylesheet" href="/lib/default.css">
+    <script src="/lib/giteement.browser.js"></script>
   
   <script>
-    <!-- id: "编辑Hexo博客的基本命令" -->
-    var gitment = new Gitment({
-      id: "20200314145135",
-      owner: 'Alpha-GOGO',
-      repo: 'Alpha-GoGo.github.io',
-      oauth: {
-        client_id: 'c550c972201d70c4d4a6',
-        client_secret: '41803b8f92e490448eb3302d5b3b07bac04e3ef7',
-      },
-    })
-    gitment.render('gitment-ctn')
+  <!-- id: "编辑Hexo博客的基本命令" -->
+  var giteement = new Giteement({
+    id: '20200314145135',
+    owner: 'wyh0517',
+    repo: 'Alpha-GoGo.github.io',
+    backcall_uri: 'https://gitee.com/wyh0517/Alpha-GoGo.github.io',
+    oauth_uri: 'https://cors-anywhere.herokuapp.com/https://gitee.com/oauth/token',
+    oauth: {
+      client_id: '14f7c7b0a2000df80c01a8b41c0e1369f2f11b62d3d5c5c93402f9513701e12f',
+      client_secret: '52f9ab5a7c44e628c0aca89b707230159f90d70bc28fa2ec850c75e1abc360c4'
+    },
+  })
+  giteement.render('giteement-ctn')
   </script>
 
 
-  
+
+
+
 
 
 

@@ -10,15 +10,15 @@
   <meta name="generator" content="hexo-theme-yilia-plus">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta name="description" content="对博客的理解随着网络技术的不断进步，我们每个人的在网络上产生的数据越来越多，这些信息是我们在互联网上存在过的痕迹，值得我们认真对待。但是它们被分布在各个网站上，我们很难将它们聚合在一起，而且各个网站的信息排布方式也没有办法自由控制。因此，我们需要一个可以由自己主宰的空间——博客。 通过博客，我们可以记录自己的生活和成长的轨迹。它不像 Twitter 那样碎片化，也不像 Facebook 那样关系化">
+  <meta name="description" content="对博客的理解随着网络技术的不断进步，我们每个人的在网络上产生的数据越来越多，这些信息是我们在互联网上存在过的痕迹，值得我们认真对待。但是它们被分布在各个网站上，我们很难将它们聚合在一起，而且各个网站的信息排布方式也没有办法自由控制。因此，我们需要一个可以由自己主宰的空间——博客。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Why Blog">
 <meta property="og:url" content="http://yoursite.com/2020/03/21/seeBlog/index.html">
 <meta property="og:site_name" content="Wang-YH">
-<meta property="og:description" content="对博客的理解随着网络技术的不断进步，我们每个人的在网络上产生的数据越来越多，这些信息是我们在互联网上存在过的痕迹，值得我们认真对待。但是它们被分布在各个网站上，我们很难将它们聚合在一起，而且各个网站的信息排布方式也没有办法自由控制。因此，我们需要一个可以由自己主宰的空间——博客。 通过博客，我们可以记录自己的生活和成长的轨迹。它不像 Twitter 那样碎片化，也不像 Facebook 那样关系化">
+<meta property="og:description" content="对博客的理解随着网络技术的不断进步，我们每个人的在网络上产生的数据越来越多，这些信息是我们在互联网上存在过的痕迹，值得我们认真对待。但是它们被分布在各个网站上，我们很难将它们聚合在一起，而且各个网站的信息排布方式也没有办法自由控制。因此，我们需要一个可以由自己主宰的空间——博客。">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-03-21T07:04:35.000Z">
-<meta property="article:modified_time" content="2020-04-09T03:45:35.351Z">
+<meta property="article:modified_time" content="2020-04-14T09:24:27.038Z">
 <meta property="article:author" content="Wang-YH">
 <meta property="article:tag" content="随笔">
 <meta name="twitter:card" content="summary">
@@ -281,6 +281,8 @@
   <div class="article-entry" itemprop="articleBody">
     
     <h3 id="对博客的理解"><a href="#对博客的理解" class="headerlink" title="对博客的理解"></a>对博客的理解</h3><p>随着网络技术的不断进步，我们每个人的在网络上产生的数据越来越多，这些信息是我们在互联网上存在过的痕迹，值得我们认真对待。但是它们被分布在各个网站上，我们很难将它们聚合在一起，而且各个网站的信息排布方式也没有办法自由控制。因此，我们需要一个可以由自己主宰的空间——博客。</p>
+<a id="more"></a>
+
 <p>通过博客，我们可以记录自己的生活和成长的轨迹。它不像 Twitter 那样碎片化，也不像 Facebook 那样关系化，它是私人的空间。</p>
 <p>喜欢写博客的人，有以下几种：</p>
 <blockquote>
@@ -496,30 +498,31 @@
 
 
 
-
+  <div id="giteement-ctn"></div>
   
-  <div id="gitment-ctn"></div>
-  
-    <!-- 中文 -->
-    <link rel="stylesheet" href="/lib/gitment.css">
-    <script src="/lib/gitment.js"></script>
+    <link rel="stylesheet" href="/lib/default.css">
+    <script src="/lib/giteement.browser.js"></script>
   
   <script>
-    <!-- id: "Why Blog" -->
-    var gitment = new Gitment({
-      id: "20200321150435",
-      owner: 'Alpha-GOGO',
-      repo: 'Alpha-GoGo.github.io',
-      oauth: {
-        client_id: 'c550c972201d70c4d4a6',
-        client_secret: '41803b8f92e490448eb3302d5b3b07bac04e3ef7',
-      },
-    })
-    gitment.render('gitment-ctn')
+  <!-- id: "Why Blog" -->
+  var giteement = new Giteement({
+    id: '20200321150435',
+    owner: 'wyh0517',
+    repo: 'Alpha-GoGo.github.io',
+    backcall_uri: 'https://gitee.com/wyh0517/Alpha-GoGo.github.io',
+    oauth_uri: 'https://cors-anywhere.herokuapp.com/https://gitee.com/oauth/token',
+    oauth: {
+      client_id: '14f7c7b0a2000df80c01a8b41c0e1369f2f11b62d3d5c5c93402f9513701e12f',
+      client_secret: '52f9ab5a7c44e628c0aca89b707230159f90d70bc28fa2ec850c75e1abc360c4'
+    },
+  })
+  giteement.render('giteement-ctn')
   </script>
 
 
-  
+
+
+
 
 
 
