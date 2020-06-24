@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>文章的front-matter规则w</title>
+      <link href="/2020/06/24/rule/"/>
+      <url>/2020/06/24/rule/</url>
+      
+        <content type="html"><![CDATA[<p>如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要</p><ul><li>Hexo</li><li>Github</li><li>博客<br>categories:</li><li>软件安装与配置</li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo开发日志(持续更新)</title>
       <link href="/2020/04/29/hexoLog/"/>
       <url>/2020/04/29/hexoLog/</url>
