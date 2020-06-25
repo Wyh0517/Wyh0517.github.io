@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>如何把一个项目部署到github</title>
+      <link href="/2020/06/25/gitPush/"/>
+      <url>/2020/06/25/gitPush/</url>
+      
+        <content type="html"><![CDATA[<p>##1.在桌面上创建一个文件夹（或者mkdir一个文件），将代码拷贝到该文件夹。</p><p>##2.打开该文件，鼠标右击进入Git Bash Here</p><p>##3.通过命令git init把这个文件夹变成Git可管理的仓库</p><p>##4<br>通过git add把项目添加到仓库（或git add .把该目录下的所有文件添加到仓库，注意点是用空格隔开的）在这个过程中你其实可以一直使用git status来查看你当前的状态。<br>##5.用git commit -m “日志” 把项目提交到仓库。</p><p>##6.git remote add origin （仓库地址）<br>可能出现错误：! [rejected] master -&gt; master (fetch first) error: failed to push some refs to ‘git@gitee.co<br>解决：<br>1.先输入git pull –rebase origin master<br>2.在输入git push origin master<br>3.如果还不行，出现push declined due to email privacy restrictions<br>则删除readme<br>##</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Github </tag>
+            
+            <tag> Git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>lang_multiTable</title>
       <link href="/2020/06/25/lang-multiTable/"/>
       <url>/2020/06/25/lang-multiTable/</url>
@@ -62,7 +89,7 @@
       <link href="/2020/06/25/linux-command/"/>
       <url>/2020/06/25/linux-command/</url>
       
-        <content type="html"><![CDATA[<p>1</p>]]></content>
+        <content type="html"><![CDATA[<p>1<br>ctrlw关闭</p>]]></content>
       
       
       <categories>
@@ -119,7 +146,7 @@
       
       <categories>
           
-          <category> Hexo </category>
+          <category> Markdown </category>
           
       </categories>
       
@@ -127,6 +154,8 @@
         <tags>
             
             <tag> Hexo框架 </tag>
+            
+            <tag> Markdown </tag>
             
         </tags>
       
