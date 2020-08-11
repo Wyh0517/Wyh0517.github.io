@@ -4,11 +4,24 @@
   
     
     <entry>
+      <title>SpringBoot/SpringBoot</title>
+      <link href="/2020/08/09/SpringBoot/SpringBoot/"/>
+      <url>/2020/08/09/SpringBoot/SpringBoot/</url>
+      
+        <content type="html"><![CDATA[<h1 id="一、Spring入门"><a href="#一、Spring入门" class="headerlink" title="一、Spring入门"></a>一、Spring入门</h1><h2 id="1、Spring简介"><a href="#1、Spring简介" class="headerlink" title="1、Spring简介"></a>1、Spring简介</h2><blockquote><p>简化Spring应用开发的一个框架</p><p>整个Spring技术栈的一个大整合</p><p>J2EE开发的一站式解决方案</p></blockquote><h1 id="微服务"><a href="#微服务" class="headerlink" title="微服务"></a>微服务</h1><blockquote><p>2014，martin</p></blockquote>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>如何把一个项目部署到github</title>
       <link href="/2020/06/25/gitPush/"/>
       <url>/2020/06/25/gitPush/</url>
       
-        <content type="html"><![CDATA[<h3 id="1-创建本地项目"><a href="#1-创建本地项目" class="headerlink" title="1.创建本地项目"></a>1.创建本地项目</h3><p>在桌面上创建一个文件夹（或者<code>mkdir</code>一个文件），将代码拷贝到该文件夹。<br><img src="../img/github3.jpg" alt=""></p><h3 id="2-将当前项目转化为工作区"><a href="#2-将当前项目转化为工作区" class="headerlink" title="2.将当前项目转化为工作区"></a>2.将当前项目转化为工作区</h3><p>打开该文件，鼠标右击进入<code>Git Bash Here</code><br>通过命令<code>git init</code>把这个文件夹变成Git可管理的仓库。</p><h3 id="3-将项目部署到Git本地仓库"><a href="#3-将项目部署到Git本地仓库" class="headerlink" title="3.将项目部署到Git本地仓库"></a>3.将项目部署到Git本地仓库</h3><p>通过git add把项目添加到仓库（或<code>git add .</code>把该目录下的所有文件添加到仓库，注意点是用空格隔开的）在这个过程中你其实可以一直使用<code>git status</code>来查看你当前的状态。</p><h3 id="4-将项目推送到远程仓库（Gitgub）"><a href="#4-将项目推送到远程仓库（Gitgub）" class="headerlink" title="4.将项目推送到远程仓库（Gitgub）"></a>4.将项目推送到远程仓库（Gitgub）</h3><p>用<code>git commit -m &quot;日志&quot;</code>将本地暂存的修改提交到版本库,<br><code>git remote add origin (仓库地址)</code>把项目提交到仓库。</p><h3 id="可能出现的问题"><a href="#可能出现的问题" class="headerlink" title="可能出现的问题"></a>可能出现的问题</h3><p>错误：</p><figure class="highlight ocaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">! [rejected] master -&gt; master (fetch first) error: failed <span class="keyword">to</span> push some refs <span class="keyword">to</span> <span class="symbol">'git</span>@gitee.co</span><br></pre></td></tr></table></figure><p>解决：</p><figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1</span>.先输入git pull --rebase origin <span class="literal">master</span></span><br><span class="line"><span class="number">2</span>.在输入git push origin <span class="literal">master</span></span><br></pre></td></tr></table></figure><p>如果还不行，出现<code>push declined due to email privacy restrictions</code>则删除readme</p>]]></content>
+        <content type="html"><![CDATA[<h3 id="1-创建本地项目"><a href="#1-创建本地项目" class="headerlink" title="1.创建本地项目"></a>1.创建本地项目</h3><p>在桌面上创建一个文件夹（或者<code>mkdir</code>一个文件），将代码拷贝到该文件夹。<br><img src="img/github3.jpg" alt=""></p><h3 id="2-将当前项目转化为工作区"><a href="#2-将当前项目转化为工作区" class="headerlink" title="2.将当前项目转化为工作区"></a>2.将当前项目转化为工作区</h3><p>打开该文件，鼠标右击进入<code>Git Bash Here</code><br>通过命令<code>git init</code>把这个文件夹变成Git可管理的仓库。</p><h3 id="3-将项目部署到Git本地仓库"><a href="#3-将项目部署到Git本地仓库" class="headerlink" title="3.将项目部署到Git本地仓库"></a>3.将项目部署到Git本地仓库</h3><p>通过git add把项目添加到仓库（或<code>git add .</code>把该目录下的所有文件添加到仓库，注意点是用空格隔开的）在这个过程中你其实可以一直使用<code>git status</code>来查看你当前的状态。</p><h3 id="4-将项目推送到远程仓库（Gitgub）"><a href="#4-将项目推送到远程仓库（Gitgub）" class="headerlink" title="4.将项目推送到远程仓库（Gitgub）"></a>4.将项目推送到远程仓库（Gitgub）</h3><p>用<code>git commit -m &quot;日志&quot;</code>将本地暂存的修改提交到版本库,<br><code>git remote add origin (仓库地址)</code>把项目提交到仓库。</p><h3 id="可能出现的问题"><a href="#可能出现的问题" class="headerlink" title="可能出现的问题"></a>可能出现的问题</h3><p>错误：</p><figure class="highlight ocaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">! [rejected] master -&gt; master (fetch first) error: failed <span class="keyword">to</span> push some refs <span class="keyword">to</span> <span class="symbol">'git</span>@gitee.co</span><br></pre></td></tr></table></figure><p>解决：</p><figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1</span>.先输入git pull --rebase origin <span class="literal">master</span></span><br><span class="line"><span class="number">2</span>.在输入git push origin <span class="literal">master</span></span><br></pre></td></tr></table></figure><p>如果还不行，出现<code>push declined due to email privacy restrictions</code>则删除readme</p>]]></content>
       
       
       <categories>
